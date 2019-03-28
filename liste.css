@@ -1,0 +1,41 @@
+#content-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+article{
+    padding: 10px;
+    margin: 20px;
+    background: #FF801E;
+    display: block;
+    opacity: 0.7;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  input[type=submit] {
+    background-color: #FF801E;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    opacity: 0.7;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #FF801E;
+    border: 1px solid #FF801E;
+}
+
+#input-content{
+    width: 100%;
+    text-align: center;
+}
