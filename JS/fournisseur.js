@@ -28,6 +28,8 @@ function preload(){
             var balise7 = document.createElement("button");
             balise7.type = "button";
             balise7.className = "btn btn-warning";
+            balise7.value = json[iter]._id
+            balise7.addEventListener("click", () => { fctModifier(balise7.value); });
             var balise8 = document.createElement("button");
             balise8.type = "button";
             balise8.className = "btn btn-warning";
@@ -57,3 +59,13 @@ function preload(){
         });
 })}
 preload()
+
+
+function fctModifier(json) {
+    document.location = "./modifierfournisseur.html?"+json
+}
+
+function clicked2() {
+    document.location = "./addfournisseur.html"
+}
+
